@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dd,dt,img,form{ padding:0px; margin:0px; border:0; font-size:12px;}
+h1,h2,h3,h4,h5,h6 { font-size:12px; font-weight:100;}
+select{ padding:0px; margin:0px; overflow:scroll;}
+td,tr,td { font-size:12px;}
+ul,ol li{ list-style:none;}
+input { padding:0px; margin:0px;}
+.left { float:left;}
+.right { float:right;}
+.clear { clear:both; font-size:0px; height:0px; overflow:hidden;}
+a:link, a:visited { text-decoration:none;}
+/*a:hover { text-decoration:underline;}*/
+a:focus { outline:none;}
+a { text-decoration:none; blr:expression(this.onFocus=this.blur());}
+
+/*广告*/
+.banner{position:relative;}
+.banner .list{ width: 100%;height: 466px; overflow:hidden; position:relative; z-index:1;}
+.banner .list li{ width: 100%;height: 466px; position:absolute; left:0px; top:0px; display:none;}
+.banner .list li a{ width: 100%; margin:0 auto; position:relative; display:block; overflow:hidden; height: 466px;}
+.banner .list li a:hover{ text-decoration:none;}
+/*.banner .list li.bg1{ }*/
+/*.banner .list li.bg1 .text1{ position: absolute;z-index: -1;left: 50%;bottom:-80%;margin-left: -515px; z-index:10;}
+.banner .list li.bg1 .text1.hover{ animation:img3_1 1s ease; -webkit-animation:img3_1 1s ease;}*/
+@keyframes img3_1 {
+	0% {
+		bottom:-100%;
+	}
+	100% {
+		bottom:-80%;
+	}
+}
+
+@-webkit-keyframes img3_1 {
+	0% {
+		bottom:-100%;
+	}
+	100% {
+		bottom:-80%;
+	}
+}
+
+/*小按钮*/
+.banner .btn{position:absolute; bottom:22px;left: 50%;margin-left:-44px;z-index:100;}
+.banner .btn li{ margin-left: 12px; background: #b8b8b6;text-indent: -999em; float: left; width: 10px; height: 10px; cursor: pointer;border-radius: 50%;}
+.banner .btn li.hover{ background: #fff; }
+
+.banner .list li.bg2{ /*background:#0ecbc9;*/}
+
+.banner .list li.bg3{ /*background:#ffc028;*/}
+
+.banner .list li.bg4{ /*background:#ff7575;*/}

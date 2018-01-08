@@ -1,0 +1,14 @@
+/*reset*/
+*{font-family: "Microsoft YaHei";font-size: 14px;}
+a{outline:none;text-decoration: none;}
+div,body,h1,h2,h3,h4{margin: 0;}
+ul,li,dd,dl,p{margin: 0;padding: 0;}
+li{list-style: none;}
+h1,h2,h3,h4{font-weight: normal;}
+img{border-style:none; }
+.floatright{float: right;}
+.floatleft{float: left;}
+.clearfix{clear: both;}
+.user-select{-moz-user-select:none;/* 火狐 */-webkit-user-select:none;/*webkit 浏览器 */-ms-user-select:none;/*IE10*/-khtml-user-select:none;/* 早期浏览器 */user-select:none;}
+html{height: 100%;}
+iframe{border: 0;}
